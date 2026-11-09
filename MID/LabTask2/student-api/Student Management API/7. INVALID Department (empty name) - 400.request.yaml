@@ -1,0 +1,15 @@
+$kind: http-request
+name: 7. INVALID Department (empty name) -> 400
+url: http://localhost:5001/departments
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "name": "",
+      "code": "EEE",
+      "description": "x"
+    }
+order: 7000

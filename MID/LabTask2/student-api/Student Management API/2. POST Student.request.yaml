@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:5001/students
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "firstName": "USNO",
+      "lastName": "KARMAKAR",
+      "email": "USNOKARMAKAR@student.edu",
+      "phone": "+880173477777",
+      "dateOfBirth": "1999-12-18",
+      "departmentId": 3
+    }
+order: 2000

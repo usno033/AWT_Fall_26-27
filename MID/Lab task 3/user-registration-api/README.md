@@ -1,8 +1,8 @@
 # User Registration API (NestJS Validation)
 
-**SL:** 21  
-**Name:** MD. Firoj Koraishi Sourov  
-**ID:** 23-53516-3  
+**SL:** 08 
+**Name:** USNO KARMAKAR  
+**ID:** 23-51033-1
 **Section:** D
 
 ## Setup

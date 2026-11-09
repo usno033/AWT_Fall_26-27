@@ -1,0 +1,17 @@
+$kind: http-request
+name: 9. INVALID Course (empty code) -> 400
+url: http://localhost:5001/courses
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "X",
+      "code": "",
+      "credits": 3,
+      "description": "d",
+      "departmentId": 1
+    }
+order: 9000

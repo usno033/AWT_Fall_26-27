@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: feb3694e-1efc-4c37-80f5-cb779a0492c0
+
+localResources:
+  collections:
+    - ../MID/LabTask2/student-api/Student Management API

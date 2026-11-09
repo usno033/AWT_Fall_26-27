@@ -1,0 +1,16 @@
+$kind: http-request
+url: http://localhost:5001/courses
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "Advanced Web Technologies",
+      "code": "CSE3101",
+      "credits": 3,
+      "description": "NestJS and REST APIs",
+      "departmentId": 1
+    }
+order: 3000

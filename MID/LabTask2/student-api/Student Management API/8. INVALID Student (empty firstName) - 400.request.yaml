@@ -1,0 +1,18 @@
+$kind: http-request
+name: 8. INVALID Student (empty firstName) -> 400
+url: http://localhost:5001/students
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "firstName": "",
+      "lastName": "K",
+      "email": "a@b.com",
+      "phone": "1",
+      "dateOfBirth": "2002-05-14",
+      "departmentId": 1
+    }
+order: 8000

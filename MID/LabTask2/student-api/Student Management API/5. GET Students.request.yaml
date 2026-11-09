@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:5001/students
+method: GET
+headers:
+  Content-Type: application/json
+order: 5000
